@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unique Digital Clock</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Digital-Clock.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Digital - Clock</h1>
+      <div class="clock-container">
+        <p class="clock" id="clock"></p>
+        <div class="stopwatch-container">
+          <p class="stopwatch" id="stopwatch">00 : 00 : 00</p>
+          <div class="button-container">
+            <button type="button" class="btn btn-primary" onclick="showUTCTime()">Show UTC Time</button>
+            <button type="button" class="btn btn-secondary" onclick="toggleStopwatch()">Start/Stop Stopwatch</button>
+            <button type="button" class="btn btn-danger" onclick="resetStopwatch()">Reset Stopwatch</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script  src="Digital-Clock.js">
+  </script>
+  </body>
+  </html>
