@@ -27,12 +27,12 @@
     clockInterval = setInterval(displayTime, 1000);
   }
 
-  // Function to stop the clock
+  // this function add to  stop the clock
   function stopClock() {
     clearInterval(clockInterval);
   }
 
-  // Function to show UTC time in popup
+  // Function to show UTC time in popup by using alert
   function showUTCTime() {
     let now = new Date();
     let utcTime = now.toUTCString();
